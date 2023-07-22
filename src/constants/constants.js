@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['React', 'Tailwind CSS', 'NextJs'],
     source: 'https://github.com/anubhav1206/meme-generator',
-    visit: 'https://anubhav-twitter-clone.netlify.app/',
+    visit: 'https://anubhav-meme-generator.vercel.app/',
     id: 1,
   },
   {

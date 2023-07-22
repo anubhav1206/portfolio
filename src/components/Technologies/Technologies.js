@@ -20,7 +20,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            ReactJs and NectJs
+            ReactJs and NextJs
           </ListParagraph>
         </ListContainer>
       </ListItem>
