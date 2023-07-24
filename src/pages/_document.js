@@ -32,7 +32,9 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <title>Portfolio Website</title>
-          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"></link>
           <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"></link>
           <link rel="manifest" href="/site.webmanifest"></link>
         </Head>
