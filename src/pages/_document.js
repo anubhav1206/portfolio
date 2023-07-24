@@ -31,7 +31,10 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en-GB'>
         <Head>
+          <title>Portfolio Website</title>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"></link>
+          <link rel="manifest" href="/site.webmanifest"></link>
         </Head>
         <body>
           <Main />
