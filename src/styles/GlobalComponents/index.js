@@ -142,9 +142,6 @@ export const SectionTextOne = styled.p`
 `
 
 export const SectionMagic = styled.span`
-.hashnode:hover{
-  cursor: pointer;
-  
 }
 @keyframes background-pan {
   from {

@@ -10,12 +10,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Space travel Website',
-    description: "An interactive and immersive space travel website built using HTML CSS and Js built with the collaboration of Kevin Powell and scrimba. The site has 4 pages the main page with an explore button that leads to the destination page the crew page and the technology page",
-    image: '/images/1.png',
-    tags: ['HTML', 'CSS', 'Js'],
-    source: 'https://github.com/anubhav1206/the-space-travel-website',
-    visit: 'https://anubhav-space-travel-website.netlify.app/',
+    title: 'Metaverse Website',
+    description: "Welcome to an extraordinary metaverse website! Embracing the latest technologies like React and Next.js for seamless server-side rendering, and enhanced with framer motion for stunning animations. Immerse yourself in a captivating virtual world, where limitless possibilities await.",
+    image: '/images/meta.png',
+    tags: ['React', 'Tailwind', 'Framer Motion'],
+    source: 'https://github.com/anubhav1206/metaverse-website',
+    visit: 'https://anubhav-metaverse.netlify.app/',
     id: 1,
   },
   {
@@ -28,35 +28,14 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Password generator',
-    description: "A very simple password generator built using HTML, CSS, and Javascript which generates 2 random passwords upon the click of a button. The length of each password is 15 and upon clicking the 'Generate password' button, two freshly generated passwords are shown in the browser.",
-    image: '/images/3.png',
+    title: 'Space Travel Website',
+    description: "An immersive and fully responsive space travel website built using HTML CSS and javascript which has 4 pages, of which the home page has an explore button that leads to the destination page which has some of our next destinations. The crew page shares some light on the crew and the technology page gives us an idea of the tech that makes this possible.",
+    image: '/images/1.png',
     tags: ['HTML', 'CSS', 'Javascript'],
-    source: 'https://github.com/anubhav1206/password-generator',
-    visit: 'https://anubhav-password-generator.netlify.app/',
+    source: 'https://github.com/anubhav1206/the-space-travel-website',
+    visit: 'https://anubhav-space-travel-website.netlify.app/',
     id: 5,
   },
-  {
-    title: 'Movie Saver',
-    description: 
-    "Movie-Saver is a user-friendly web application designed to simplify the process of searching for and saving movies to your personal watchlist. With a clean and intuitive UI and a dark mode toggle, it allows you to effortlessly discover new movies and keep track of the ones you plan to watch.",
-    image: '/images/movie.png',
-    tags: ['HTML', 'CSS', 'React'],
-    source: 'https://github.com/anubhav1206/Movie-Saver',
-    visit: 'https://anubhav-movie-watchlist.netlify.app/index.html',
-    id: 3,
-  },
-  {
-    title: 'Role Playing Game',
-    description: 
-    "Movie-Saver is a user-friendly web application designed to simplify the process of searching for and saving movies to your personal watchlist. With a clean and intuitive UI and a dark mode toggle, it allows you to effortlessly discover new movies and keep track of the ones you plan to watch.",
-    image: '/images/game.png',
-    tags: ['HTML', 'CSS', 'Javascript'],
-    source: 'https://github.com/anubhav1206/wizard-orc-game',
-    visit: 'https://anubhav-role-playing-game.netlify.app/',
-    id: 4,
-  },
-
 ];
 
 export const TimeLineData = [
