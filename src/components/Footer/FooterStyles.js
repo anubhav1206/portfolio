@@ -87,11 +87,14 @@ export const CompanyContainer = styled.div`
 
 
 export const Slogan = styled.p`
-	color: rgba(255, 255, 255, 0.5);
+	background: rgba(63,94,251,1);
+	background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 	font-family: ${props => props.theme.fonts.main};
 	min-width: 280px;
 	letter-spacing: 0.02em;
-	font-size: 18px;
+	font-size: 32px;
 	line-height: 30px;
 	padding: 1rem;
 

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle, SectionMagic } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle, SectionMagic } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -45,7 +45,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>
+      {/* <SectionText>
       As a <SectionMagic>frontend developer</SectionMagic>, I have successfully designed and implemented user-friendly interfaces for various web applications, 
       adhering to best practices and industry standards. I am highly proficient in HTML, CSS, JavaScript, and have a handy grip over React and version control.
       I also am familiar with SQL databases in the backend and working on figma in the frontend. 
@@ -54,7 +54,7 @@ const Timeline = () => {
       My passion for technology extends beyond work, as I actively participate in <SectionMagic>open-source</SectionMagic> projects, where I have made significant 
       contributions and received recognition for my dedication to the community. Overall, my dedication to continuous learning and my 
       ability to solve complex problems have been key drivers in my career, and I am always eager to take on new <SectionMagic>challenges</SectionMagic> and deliver exceptional results.
-      </SectionText>
+      </SectionText> */}
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -119,7 +119,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

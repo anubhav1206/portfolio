@@ -61,7 +61,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: #FAF3F0;
+  background: #F1F6F9;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -70,7 +70,6 @@ export const SectionTitle = styled.h2`
   &:hover{
     transform: translatey(-10px);
     cursor: pointer;
-    background: #F9F5F6;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -223,8 +222,8 @@ background-size: 200%;
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
-  height: 6px;
+  width: auto;
+  height: 0.5px;
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 

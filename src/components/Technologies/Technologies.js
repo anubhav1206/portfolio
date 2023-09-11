@@ -1,11 +1,10 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle, SectionMagic } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle, SectionMagic } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the <SectionMagic>web development</SectionMagic>  world.
@@ -49,7 +48,6 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider colorAlt />
   </Section>
 );
 
